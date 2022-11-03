@@ -107,8 +107,13 @@ namespace WeekOne_Task
                 //increment should keep taking place as far as the user still has something to put down
                 i++;
             }while (exit == "NO"); //once this condition is false, it should break out
-                decimal GPA = (totalWP / totalGU);
+                double GPA = (totalWP / totalGU);
+                GPA = Math.Round(GPA, 2);            
                 Console.Clear();
+
+                Console.WriteLine(totalGU);
+                Console.WriteLine(totalWP);
+                Console.WriteLine(GPA);
                 Console.WriteLine("===================================================================");
                 Console.WriteLine("| CourseCode | CourseUnit | Grade | GradeUnit | WeightPt | Remark |");
                 Console.WriteLine("===================================================================");
