@@ -1,0 +1,16 @@
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.exe
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.deps.json
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.runtimeconfig.json
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.runtimeconfig.dev.json
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.dll
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\ref\WeekOne_Task.dll
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\bin\Debug\net5.0\WeekOne_Task.pdb
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.csproj.AssemblyReference.cache
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.AssemblyInfoInputs.cache
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.AssemblyInfo.cs
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.csproj.CoreCompileInputs.cache
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.dll
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\ref\WeekOne_Task.dll
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.pdb
+C:\Users\reactKin\Desktop\C# learning area\Decagon_Task_After_Every_Week\WeekOne_Task\obj\Debug\net5.0\WeekOne_Task.genruntimeconfig.cache
