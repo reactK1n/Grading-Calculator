@@ -26,7 +26,7 @@ namespace WeekOne_Task
 
         private static string GetCenterAlligned(string columnText, int columnWidth)
         {
-            columnText = columnText.Length > columnWidth ? columnText.Substring(0, columnWidth - 3) + "---" : columnText;
+            columnText = columnText.Length > columnWidth ? columnText.Substring(0, columnWidth - 3) + "..." : columnText;
 
             return string.IsNullOrEmpty(columnText) ? new string(' ', columnWidth) : columnText.PadRight(columnWidth - ((columnWidth - columnText.Length) / 2)).PadLeft(columnWidth);
         }
