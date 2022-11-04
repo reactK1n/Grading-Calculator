@@ -111,19 +111,18 @@ namespace WeekOne_Task
                 GPA = Math.Round(GPA, 2);            
                 Console.Clear();
 
-                Console.WriteLine(totalGU);
-                Console.WriteLine(totalWP);
-                Console.WriteLine(GPA);
-                Console.WriteLine("===================================================================");
-                Console.WriteLine("| CourseCode | CourseUnit | Grade | GradeUnit | WeightPt | Remark |");
-                Console.WriteLine("===================================================================");
+                //calling the table class
+                DataFormatting.PrintSeperatorLine();
+                DataFormatting.PrintRow(" COURSE NAME & CODE ", " COURSE UNIT ", " GRADE ", " GRADE UNIT ", " WEIGHT POINT ", " REMARK ");
+                DataFormatting.PrintSeperatorLine();
 
             foreach(var k in Result)
             {
-                //print every result saved with loop
-                Console.WriteLine("| {0}   | {1}          | {2}     | {3}         | {4}       | {5}    |",k.CourseCode, k.CourseUnit, k.Grade, k.GradeUnit, k.WeightPt, k.Remark);
+                // //print every result saved with looping
+                DataFormatting.PrintRow(k.CourseCode, k.CourseUnit.ToString(), k.Grade, k.GradeUnit.ToString(), k.WeightPt.ToString(), k.Remark);
+                DataFormatting.PrintSeperatorLine();
             }
-                Console.WriteLine("===================================================================");
+
                 Console.WriteLine("Total Grade Unit Registered is {0}", totalGU);
                 Console.WriteLine("Total Grade Unit Passed is {0}", totalGU);
                 Console.WriteLine("Total Weight Point is {0}", totalWP);
