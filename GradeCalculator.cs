@@ -72,7 +72,7 @@ namespace WeekOne_Task
 
             CollectingUserInput.AddData( courseCode, int.Parse(courseUnit), Convert.ToDouble(courseScore));
 
-           //Validation for course Score
+           //Validation for course Exit
                 //============================
                 do
                 {
