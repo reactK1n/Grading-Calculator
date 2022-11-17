@@ -13,11 +13,12 @@ namespace WeekOne_Task
             string courseCode;
             string courseUnit;
             string courseScore;
-            int exit;
+            string exit;
    
 
             do
             {
+            Console.Clear();
 
                 //Validation for course Code
                 //============================
@@ -29,9 +30,9 @@ namespace WeekOne_Task
                 } while
                 (
                     CourseCodeValidation.IsNullOrEmptyOrWhiteSpace(courseCode)
-                    || !CourseCodeValidation.LastThreeLetterIsInt(courseCode) 
-                    || CourseCodeValidation.FirstThreeLetterIsString(courseCode)
                     || !CourseCodeValidation.IsSixLetterWords(courseCode)
+                    || CourseCodeValidation.FirstThreeLetterIsNotString(courseCode)
+                    || !CourseCodeValidation.LastThreeLetterIsInt(courseCode) 
                 );
 
 
@@ -45,8 +46,8 @@ namespace WeekOne_Task
                 } while
                 (
                     CourseUnitValidation.IsNullOrEmptyOrWhiteSpace(courseUnit) 
-                    || !CourseUnitValidation.IsInt(courseUnit) 
                     || !CourseUnitValidation.IsOneDigit(courseUnit)
+                    || !CourseUnitValidation.IsInt(courseUnit) 
                     || CourseUnitValidation.IsBtwOneAndFive(courseUnit) 
                 );
 
@@ -71,11 +72,23 @@ namespace WeekOne_Task
 
             CollectingUserInput.AddData( courseCode, int.Parse(courseUnit), Convert.ToDouble(courseScore));
 
-                Console.WriteLine("press 1 to add, 2 to Print result");
-                exit = int.Parse(Console.ReadLine());
+           //Validation for course Score
+                //============================
+                do
+                {
+                    Console.WriteLine("press 1 to add, 2 to Print result");
+                    exit = Console.ReadLine();
 
-            } while (exit == 1);
+                } while
+                (
+                    PrintValidation.IsNullOrEmptyOrWhiteSpace(exit) 
+                    || !PrintValidation.IsInt(exit) 
+                    || !PrintValidation.IsOneDigit(exit)
+                    || !PrintValidation.IsOneOrTwo(exit)
+                );
 
+            } while (exit == "1");
+            Console.Clear();
             PrintResult.PrintData();
 
 

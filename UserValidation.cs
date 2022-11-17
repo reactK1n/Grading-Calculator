@@ -21,7 +21,7 @@ namespace WeekOne_Task
             return succeed;
         }
 
-        public static bool FirstThreeLetterIsString(string courseCode)
+        public static bool FirstThreeLetterIsNotString(string courseCode)
         {
             int result;
             bool confirm = int.TryParse(courseCode.Substring(0, 3), out result);
@@ -31,7 +31,7 @@ namespace WeekOne_Task
         public static bool IsSixLetterWords(string courseCode)
         {   
             int letterLength = courseCode.Length;
-            return letterLength == 6 ? true : false;
+            return letterLength == 6;
         }
 
         
@@ -100,4 +100,39 @@ namespace WeekOne_Task
             return convertToInt >= 0 && convertToInt <= 100 ? true : false;
         }
     }
+
+
+        //Validation for course Unit
+    //============================
+
+    public class PrintValidation
+    {
+        public static bool IsNullOrEmptyOrWhiteSpace(string  print)
+        {
+
+            return string.IsNullOrEmpty(print.Trim());
+        }
+
+        public static bool IsInt(string print)
+        {
+            int result;
+            bool succeed = int.TryParse(print, out result);
+            return succeed;
+        }
+
+        public static bool IsOneDigit(string print)
+        {   
+            int letterLength = print.Length;
+            return letterLength == 1 ? true : false;
+
+        }
+
+        public static bool IsOneOrTwo(string print)
+        {   
+            int convertToInt = int.Parse(print);
+            return convertToInt == 1 || convertToInt == 2 ? true : false;
+        }
+
+    }
+    
 }
