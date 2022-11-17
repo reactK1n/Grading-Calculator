@@ -7,7 +7,7 @@ namespace WeekOne_Task
 {
     public class DataFormatting
     {
-        private const int Tablewidth = 150;
+        private const int Tablewidth = 140;
 
         public static void PrintSeperatorLine()
         {

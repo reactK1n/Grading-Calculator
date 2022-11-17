@@ -9,8 +9,8 @@ namespace WeekOne_Task
     {
         static void Main(string[] args)
         {   
-            GradingMachine GradeMe = new GradingMachine();
-            GradeMe.GradCalculator();
+
+            GradeCalculator.UserInput();
             Console.WriteLine("press any key to exit");
             Console.ReadLine();
             Console.Clear();
